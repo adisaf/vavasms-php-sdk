@@ -47,7 +47,7 @@ try {
 Install it via composer (https://getcomposer.org/).
 
 * Run `composer require adisaf/vavasms`
-* See script example https://github.com/wazcodes/vavasms/blob/master/Examples/
+* See script example https://github.com/wazcodes/vavasms/blob/master/examples/
 
 
 ## Other autoloaders
@@ -58,7 +58,7 @@ This package is PSR-4 compliant, so you can clone the repository in your project
 
 You can simply clone the repository into your project and use the classes contained in src/ directory.
 
-Please check the examples directory here: https://github.com/adisaf/vavasms-php-sdk/blob/master/Examples/
+Please check the examples directory here: https://github.com/adisaf/vavasms-php-sdk/blob/master/examples/
 
 # More info
 
