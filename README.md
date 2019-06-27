@@ -1,4 +1,4 @@
-# Vavasms PHP SMS Send
+# Vavasms PHP SMS API SDK
 
 PHP client library to send SMS messages using Vavasms SMS Gateway.
 
