@@ -1,0 +1,35 @@
+{
+  "name": "adisaf/vavasms-php-sdk",
+  "description": "Client library to send SMS using Vavasms SMS Gateway API (https://vavasms.com)",
+  "version": "1.0.0",
+  "keywords": [
+    "vavasms",
+    "sms",
+    "api",
+    "gateway",
+    "http"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fawaz Adisa",
+      "email": "adisaf@programmer.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "ext-mbstring": "*",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "symfony/debug": "^3|^4",
+    "symfony/var-dumper": "^3|^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Adisaf\\VavaSms\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
