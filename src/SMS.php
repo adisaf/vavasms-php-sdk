@@ -8,7 +8,6 @@ class SMS extends VavaSms
 {
 
     /**
-     * @param $message
      * @return mixed
      * @throws \Exception
      */
