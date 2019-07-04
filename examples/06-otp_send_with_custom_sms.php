@@ -12,8 +12,8 @@ $otp = new Adisaf\VavaSms\OTP();
 try {
     $otp->setLang("en")
         ->setOtpExpiry("10")
-        ->setOtpLength($message)
-        ->setMessage(5)
+        ->setOtpLength(5)
+        ->setMessage($message)
         ->setSender($sender)
         ->setRecipients($recipients)
         ->authenticate($vavasms_username, $vavasms_password);
