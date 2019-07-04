@@ -1,7 +1,7 @@
 {
   "name": "adisaf/vavasms-php-sdk",
   "description": "Client library to send SMS using Vavasms SMS Gateway API (https://vavasms.com)",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "keywords": [
     "vavasms",
     "sms",
