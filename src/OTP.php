@@ -20,6 +20,7 @@ class OTP extends VavaSms
             'sender_id' => $this->sender,
             'otp_expiry' => $this->otpExpiry,
             'otp_length' => $this->otpLength,
+            'message' => $this->message,
             'phone' => implode(',', $this->recipients),
             'lang' => $this->lang
         );
@@ -85,6 +86,16 @@ class OTP extends VavaSms
     public function setLang($lang)
     {
         $this->lang = $lang;
+        return $this;
+    }
+
+    /**
+     * @param $message
+     * @return $this
+     */
+    public function setMessage($message)
+    {
+        $this->message = $message;
         return $this;
     }
 }
