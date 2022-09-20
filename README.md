@@ -58,7 +58,7 @@ This package is PSR-4 compliant, so you can clone the repository in your project
 
 You can simply clone the repository into your project and use the classes contained in src/ directory.
 
-Please check the examples directory here: https://github.com/adisaf/vavasms-php-sdk/blob/master/examples/
+Please check the examples directory here: https://github.com/adisaf/vavasms-php-sdk/tree/master/examples
 
 # More info
 
