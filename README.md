@@ -47,7 +47,7 @@ try {
 Install it via composer (https://getcomposer.org/).
 
 * Run `composer require adisaf/vavasms-php-sdk`
-* See script example https://github.com/wazcodes/vavasms/blob/master/examples/
+* See script example https://github.com/adisaf/vavasms-php-sdk/tree/master/examples
 
 
 ## Other autoloaders
